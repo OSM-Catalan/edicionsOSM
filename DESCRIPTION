@@ -1,0 +1,20 @@
+Type: Package
+Package: edicionsOSM
+Title: Scripts per edicions sistemàtiques a OSM
+Version: 0.0.1
+Authors@R: 
+    person("Joan", "Maspons", , "joanmaspons@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-2286-8727"))
+Maintainer: Joan Maspons <joanmaspons@gmail.com>
+Description: Scripts per edicions sistemàtiques a OSM consensuades per la
+    comunitat en català i centrades principalment en l'àrea dels Països
+    Catalans.
+License: GPL (>= 3)
+URL: https://github.com/OSM-Catalan/edicionsOSM
+BugReports: https://github.com/OSM-Catalan/edicionsOSM/issues
+Imports: 
+    osmapiR,
+    osmdata
+Encoding: UTF-8
+Language: ca
+LazyData: true
